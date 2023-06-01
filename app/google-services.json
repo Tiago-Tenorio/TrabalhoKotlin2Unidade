@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "153248522014",
+    "project_id": "meuslivros-3f297",
+    "storage_bucket": "meuslivros-3f297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153248522014:android:244b89a5e4eb1663b5730f",
+        "android_client_info": {
+          "package_name": "com.example.meuslivros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTh32jcMmrwKiPnAV89AlYPaOf_EIrRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
