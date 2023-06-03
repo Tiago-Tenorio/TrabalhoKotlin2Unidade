@@ -1,6 +1,7 @@
 package com.example.meuslivros
 
 import android.content.ContentValues.TAG
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -31,6 +32,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.botaoEntrar.setOnClickListener {
 
+            val navegarSegundaActivity = Intent(this, SegundaActivity::class.java)
+            startActivity(navegarSegundaActivity)
 
                 auth.signInWithEmailAndPassword(binding.editTextUsuario.text.toString(),binding.editTextSenha.text.toString())
                     .addOnCompleteListener(this) { task ->
